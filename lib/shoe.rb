@@ -7,7 +7,8 @@ class Shoe # Make your shoe class here!
   end
 
 def cobble
-  puts "The shoe has been repaird"
+  puts "Your shoe is as good as new!"
+  show.condition = "new"
 end
 
 end
